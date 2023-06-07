@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1440px;
+  width: 80%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient( to left, black, teal, teal, black );
+  padding-bottom: 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: 450;
+  letter-spacing: 0.9px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:650px){
+  .wrapper{
+      margin-left: 0%;
+      margin-right: 0%;
+      display: flex;
+      width: 100%;
+  }
+}
+
+.custom-form{
+  width: 600px;
+  height: auto;
+  margin: 20px auto;
+}
+
+@media only screen and (max-width:650px){
+  .custom-form{
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+  }
+}
+
+.input-and-btn{
+  display: flex;
+}
+
+.todo-box{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width:650px){
+  .todo-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+  }
+}
+
+.todo-box .content{
+  display: flex;
+}
+
+@media only screen and (max-width:650px){
+  .todo-box .content{
+    display: flex;
+  }
+}
+
+.todo-box .content p{
+  margin-top: -6px;
+  margin-left: 6px;
+}
+
+@media only screen and (max-width:650px){
+  .todo-box .content p{
+    display: flex;
+  }
+}
+
+.todo-box span{
+  margin: 0 5px;
+}
+
+@media only screen and (max-width:650px){
+  .todo-box span{
+    margin: 0 6px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.delete-all{
+  width: 600px;
+}
+
+@media only screen and (max-width:650px){
+  .delete-all{
+   width: 300px;
+  }
+}
+
+.actions-box{
+  cursor: pointer;
+}
+
+@media only screen and (max-width:650px){
+  .actions-box{
+    width: 350px;
+    cursor: pointer;
+  }
+}
+.back-btn{
+  margin-top: 5px;
+  width: 100%;
+}
+
+@media only screen and (max-width:650px){
+  .wrapper .card{
+    width: 1000px;
+  }
+}
